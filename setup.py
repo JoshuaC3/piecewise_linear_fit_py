@@ -23,9 +23,15 @@ setup(
         "scipy >= 1.2.0",
         "pyDOE >= 0.3.8",
     ],
+<<<<<<< HEAD
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
     ],
     python_requires=">3.5",
+=======
+    extras_require={
+        'PiecewiseLinFitTF':  ["tensorflow < 2.0.0"]
+    }
+>>>>>>> mixed_degree
 )
